@@ -33,7 +33,9 @@
     "@fontsource/inter": "^5.0.18",
     "@neodrag/svelte": "^2.0.6",
     "date-fns": "^3.6.0",
+    "markdown-it": "^14.1.0",
     "popmotion": "^11.0.5",
+    "showdown": "^2.1.0",
     "svelte-local-storage-store": "^0.6.4",
     "unplugin-icons": "^0.18.5"
   }
