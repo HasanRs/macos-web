@@ -27,7 +27,7 @@ const calendar = createAppConfig({
 
 const vscode = createAppConfig({
   title: 'VSCode',
-  resizable: true,
+  resizable: false,
 
   height: 600,
   width: 800,
@@ -51,33 +51,14 @@ const systemPreferences = createAppConfig({
   resizable: true,
 });
 
-const purusTwitter = createAppConfig({
-  title: `About the Developer`,
+const profilephoto = createAppConfig({
+  title: `Profile`,
   resizable: true,
 
   dockBreaksBefore: true,
 
   height: 600,
   width: 800,
-});
-
-const viewSource = createAppConfig({
-  title: `View Source`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () => window.open('https://github.com/puruvj/macos-web', '_blank'),
-});
-
-const vercel = createAppConfig({
-  title: `Powered by Vercel`,
-  resizable: true,
-
-  shouldOpenWindow: false,
-  externalAction: () =>
-    window.open('https://vercel.com/?utm_source=purus-projects&utm_campaign=oss', '_blank'),
-
-  dockBreaksBefore: true,
 });
 
 const appstore = createAppConfig({
@@ -92,12 +73,9 @@ export const appsConfig = {
   calendar,
   vscode,
   appstore,
-  // safari,
+  safari,
 
-  // 'system-preferences': systemPreferences,
+  'system-preferences': systemPreferences,
 
-  'purus-twitter': purusTwitter,
-  'view-source': viewSource,
-
-  vercel,
+  profilephoto,
 };
