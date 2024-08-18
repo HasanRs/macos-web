@@ -7,10 +7,12 @@
 <section class="container">
   <header class="app-window-drag-handle" />
   <div>
-    <iframe
-      src="https://stackblitz.com/github/puruvj/macos-web?embed=1&file=src/components/Desktop/Desktop.svelte&hideNavigation=1&theme=dark&view=editor"
-      title="VS Code for macOS Web"
-    />
+    <iframe src="https://codesandbox.io/p/github/HasanRs/macos-web/main?import=true&embed=1&showConsole=true"
+     style="width:100%; height: 100%; border:0; border-radius: 4px; overflow:hidden;"
+     title="HasanRs/macos-web/main"
+     allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
+     sandbox="allow-forms disallow-modals disallow-popups allow-presentation allow-same-origin allow-scripts"
+   ></iframe>
   </div>
 </section>
 
